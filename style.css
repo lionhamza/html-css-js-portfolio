@@ -207,6 +207,9 @@ section{
     height: 2rem;
 }
 
+.icon2{
+    height:1rem;
+}
 
 /*button*/
 .btn_container{
@@ -257,4 +260,53 @@ section{
 
 .btn-container{
     gap: 1rem;
+}
+
+
+/*about*/
+.about_container{
+    border:2px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.outer-container {
+  display: flex;
+  justify-content: center;  /* centers the boxes as a group */
+  gap: 20px;                 /* space between boxes */
+  padding: 20px;
+}
+
+.box {
+  width: 500px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fdfdfd;
+  text-align: center;
+  position: relative; /* Add this to allow absolute positioning of child elements */
+}
+
+.right {
+  position: absolute; /* Position it absolutely within the parent */
+  top: 1; /* Aligns it at the top */
+  right: 0; /* Aligns it to the right */
+  text-align: right;
+}
+
+
+.center{
+    text-align: center;
+    font-size:x-large;
+}
+
+.left{
+    text-align: left;
+}
+
+
+
+.textColor {
+  color: gray;
 }
